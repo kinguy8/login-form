@@ -115,7 +115,7 @@ export const RegisterForm = () => {
           </p>
         </p>
 
-        <Button className="mt-4" isLoading={registerMutation.isPending}>
+        <Button className="mt-4 w-full" isLoading={registerMutation.isPending}>
           Зарегистрироваться
         </Button>
       </div>

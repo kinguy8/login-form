@@ -14,7 +14,7 @@ export const Button = forwardRef<any, Props>(({ className, children, onClick, is
         onMouseLeave={() => setHover(false)}
         ref={ref}
         className={cn(
-          'w-full border relative z-20 border-primary p-2.5 rounded-lg flex overflow-clip justify-center',
+          'border relative z-20 border-primary p-2.5 rounded-lg flex overflow-clip justify-center',
           className,
           {
             'text-primary': !isHover,

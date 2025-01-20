@@ -58,7 +58,7 @@ export const LoginForm = () => {
         {...(errors.password && { errorMessage: errors.password.message })}
       />
 
-      <Button className="mt-16" disabled={loginMutaion.isPending} isLoading={loginMutaion.isPending}>
+      <Button className="mt-16 w-full" disabled={loginMutaion.isPending} isLoading={loginMutaion.isPending}>
         Войти
       </Button>
       <p className="text-sm text-primary mt-4 cursor-pointer" onClick={() => navigate('/register')}>
